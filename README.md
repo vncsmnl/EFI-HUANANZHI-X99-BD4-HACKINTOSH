@@ -28,6 +28,7 @@
 - Temperature monitoring for everything except GPU
 - DRM content (Netflix, ATV+, Airplay 2 mirroring etc)
 - Shutdown/Reboot/Update to newer macOS builds over time
+- Resizable Bar ON (ResizeAppleGpuBars = 8)
 
 ## What doesn't work
 - Sleep? Never got the chance to test it, my hackintosh is up 24/7
