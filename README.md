@@ -6,6 +6,12 @@
 <img src="./Images/4.png">
 </div>
 
+![Apple Badge](https://img.shields.io/badge/Apple-000?logo=apple&logoColor=fff&style=flat)
+![macOS Badge](https://img.shields.io/badge/macOS-000?logo=macos&logoColor=fff&style=flat)
+![Intel Badge](https://img.shields.io/badge/Intel-0071C5?logo=intel&logoColor=fff&style=flat)
+![AMD Badge](https://img.shields.io/badge/AMD-ED1C24?logo=amd&logoColor=fff&style=flat)
+![Bluetooth Badge](https://img.shields.io/badge/Bluetooth-0082FC?logo=bluetooth&logoColor=fff&style=flat)
+
 **Latest working macOS**: 13.1
 <br>
 **Current OpenCore**: 0.8.8
@@ -57,7 +63,7 @@
 ## Thanks/Credits
 - [Opencore Team](https://dortania.github.io/getting-started/)
 - [BASE-EFI-INTEL-HEDT-4THGEN-X99-HASWELL-E](https://github.com/luchina-gabriel/BASE-EFI-INTEL-HEDT-4THGEN-X99-HASWELL-E)
-- Gabriel Luchina @luchina-gabriel
+- [Gabriel Luchina](https://github.com/luchina-gabriel)
 
 ## Discord - Universo Hackintosh
 - [Access Discord](https://discord.universohackintosh.com.br)
