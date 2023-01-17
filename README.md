@@ -6,11 +6,11 @@
 <img src="./Images/4.png">
 </div>
 
-![Apple Badge](https://img.shields.io/badge/Apple-000?logo=apple&logoColor=fff&style=flat)
-![macOS Badge](https://img.shields.io/badge/macOS-000?logo=macos&logoColor=fff&style=flat)
-![Intel Badge](https://img.shields.io/badge/Intel-0071C5?logo=intel&logoColor=fff&style=flat)
-![AMD Badge](https://img.shields.io/badge/AMD-ED1C24?logo=amd&logoColor=fff&style=flat)
-![Bluetooth Badge](https://img.shields.io/badge/Bluetooth-0082FC?logo=bluetooth&logoColor=fff&style=flat)
+[![Apple Badge](https://img.shields.io/badge/Apple-000?logo=apple&logoColor=fff&style=flat)](https://www.apple.com/)
+[![macOS Badge](https://img.shields.io/badge/macOS-000?logo=macos&logoColor=fff&style=flat)](https://www.apple.com/macos/ventura/)
+[![Intel Badge](https://img.shields.io/badge/Intel-0071C5?logo=intel&logoColor=fff&style=flat)](https://www.intel.com.br/content/www/br/pt/products/sku/81709/intel-xeon-processor-e52670-v3-30m-cache-2-30-ghz/specifications.html)
+[![AMD Badge](https://img.shields.io/badge/AMD-ED1C24?logo=amd&logoColor=fff&style=flat)](https://www.amd.com/pt/graphics/amd-radeon-rx-6600-series)
+[![Bluetooth Badge](https://img.shields.io/badge/Bluetooth-0082FC?logo=bluetooth&logoColor=fff&style=flat)](https://fenvi.com/product_detail_16.html)
 
 **Latest working macOS**: 13.1
 <br>
