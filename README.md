@@ -3,7 +3,7 @@
 ![Image alt text](/Images/1.png)
 
 <div align="center">
-<img src="./Images/4.png">
+<img src="./Images/2.png">
 </div>
 
 [![Apple Badge](https://img.shields.io/badge/Apple-000?logo=apple&logoColor=fff&style=flat)](https://www.apple.com/)
@@ -12,13 +12,14 @@
 [![AMD Badge](https://img.shields.io/badge/AMD-ED1C24?logo=amd&logoColor=fff&style=flat)](https://www.amd.com/pt/graphics/amd-radeon-rx-6600-series)
 [![Bluetooth Badge](https://img.shields.io/badge/Bluetooth-0082FC?logo=bluetooth&logoColor=fff&style=flat)](https://fenvi.com/product_detail_16.html)
 
-**Latest working macOS**: 13.1
+**Latest working macOS**: 13.2.1
 <br>
 **Current OpenCore**: 0.8.8
 
 ---
 
 ## Complete hardware specs
+
 - Intel® Xeon® E5-2670 v3 (All cores activated)
 - HUANANZHI X99 BD4 + Unlock Turbo Boost + Resizable Bar Activated
 - AMD Radeon™ RX 6600
@@ -26,6 +27,7 @@
 - Wifi/BT replaced by Fenvi T919
 
 ## What works
+
 - macOS Ventura, Big Sur, Catalina and macOS Monterey
 - Audio
 - HDMI/DP (in dGPU - Works OOB)
@@ -37,9 +39,11 @@
 - Resizable Bar ON (ResizeAppleGpuBars = 8)
 
 ## What doesn't work
+
 - Sleep? Never got the chance to test it, my hackintosh is up 24/7
 
 ## Kexts used:
+
 - [x] AppleALC.kext
 - [x] CpuTscSync.kext
 - [x] Lilu.kext
@@ -54,21 +58,22 @@
 - [x] XHCI-unsupported.kext
 
 ## Geekbench Results:
-![CPU](/Benchmark/CPU-Benchmark.png)
----
-![GPU Metal](/Benchmark/GPU-Benchmark-Metal.png)
----
+
+## ![CPU](/Benchmark/CPU-Benchmark.png)
+
+## ![GPU Metal](/Benchmark/GPU-Benchmark-Metal.png)
+
 ![GPU OpenCL](/Benchmark/GPU-Benchmark-OpenCL.png)
 
 ## Thanks/Credits
+
 - [Opencore Team](https://dortania.github.io/getting-started/)
 - [BASE-EFI-INTEL-HEDT-4THGEN-X99-HASWELL-E](https://github.com/luchina-gabriel/BASE-EFI-INTEL-HEDT-4THGEN-X99-HASWELL-E)
 - [Gabriel Luchina](https://github.com/luchina-gabriel)
 
 ## Discord - Universo Hackintosh
+
 - [Access Discord](https://discord.universohackintosh.com.br)
 
-
-<div align="right">
-<img src="./Images/vncsmnl.gif" alt="signature" width="200">
-</div>
+<div><img align="right" src="./Images/vncsmnl.gif" alt="signature" width="200"></div>
+<div><img align="left" src="./Images/rate_w.png" alt="like" width="80"></div>
