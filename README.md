@@ -14,7 +14,7 @@
 
 **Latest working macOS**: 13.2.1
 <br>
-**Current OpenCore**: 0.8.8
+**Current OpenCore**: 0.8.9
 
 ---
 
@@ -36,7 +36,7 @@
 - Temperature monitoring for everything except GPU
 - DRM content (Netflix, ATV+, Airplay 2 mirroring etc)
 - Shutdown/Reboot/Update to newer macOS builds over time
-- Resizable Bar ON (ResizeAppleGpuBars = 8)
+- Resizable Bar ON (ResizeUsePciRbIo = true)
 
 ## What doesn't work
 
@@ -46,8 +46,8 @@
 
 - [x] AppleALC.kext
 - [x] CpuTscSync.kext
+- [x] FeatureUnlock.kext
 - [x] Lilu.kext
-- [ ] NVMeFix.kext (disabled)
 - [x] RealtekRTL8111.kext
 - [x] RestrictEvents.kext
 - [x] SMCSuperIO.kext
@@ -57,7 +57,7 @@
 - [x] WhateverGreen.kext
 - [x] XHCI-unsupported.kext
 
-## Geekbench Results:
+## Geekbench v5 Results:
 
 ## ![CPU](/Benchmark/CPU-Benchmark.png)
 
