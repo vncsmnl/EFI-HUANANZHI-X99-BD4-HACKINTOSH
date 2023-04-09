@@ -12,9 +12,9 @@
 [![AMD Badge](https://img.shields.io/badge/AMD-ED1C24?logo=amd&logoColor=fff&style=flat)](https://www.amd.com/pt/graphics/amd-radeon-rx-6600-series)
 [![Bluetooth Badge](https://img.shields.io/badge/Bluetooth-0082FC?logo=bluetooth&logoColor=fff&style=flat)](https://fenvi.com/product_detail_16.html)
 
-**Latest working macOS**: 13.2.1
+**Latest working macOS**: 13.3.1
 <br>
-**Current OpenCore**: 0.8.9
+**Current OpenCore**: 0.9.1
 
 ---
 
