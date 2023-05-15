@@ -57,13 +57,13 @@
 - [x] WhateverGreen.kext
 - [x] XHCI-unsupported.kext
 
-## Geekbench v5 Results:
+## Benchmark Results:
 
-## ![CPU](/Benchmark/CPU-Benchmark.png)
-
-## ![GPU Metal](/Benchmark/GPU-Benchmark-Metal.png)
-
-![GPU OpenCL](/Benchmark/GPU-Benchmark-OpenCL.png)
+Geekbench v5            |  Geekbench v6
+:-------------------------:|:-------------------------:
+![CPU](/Benchmark/CPU_Benchmark_v5.png) |  ![GPU Metal](/Benchmark/CPU_Benchmark_v6.png)
+![GPU Metal](/Benchmark/GPU_Benchmark_Metal_v5.png) |  ![GPU Metal](/Benchmark/GPU_Benchmark_Metal_v6.png)
+![GPU OpenCL](/Benchmark/GPU_Benchmark_OpenCL_v5.png) |  ![GPU Metal](/Benchmark/GPU_Benchmark_OpenCL_v6.png)
 
 ## Thanks/Credits
 
