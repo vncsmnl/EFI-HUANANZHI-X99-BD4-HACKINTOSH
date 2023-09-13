@@ -14,11 +14,27 @@
 		<array>
 			<dict>
 				<key>Comment</key>
+				<string>SSDT-DMAR.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-DMAR.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>SSDT-EC.aml</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
 				<string>SSDT-EC.aml</string>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>SSDT-GPRW.aml</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-GPRW.aml</string>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -62,15 +78,30 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>SSDT-USB-Reset.aml</string>
+				<string>SSDT-USBW.aml</string>
 				<key>Enabled</key>
 				<true/>
 				<key>Path</key>
-				<string>SSDT-USB-Reset.aml</string>
+				<string>SSDT-USBW.aml</string>
 			</dict>
 		</array>
 		<key>Delete</key>
-		<array/>
+		<array>
+			<dict>
+				<key>All</key>
+				<false/>
+				<key>Comment</key>
+				<string>Drop DMAR Table</string>
+				<key>Enabled</key>
+				<true/>
+				<key>OemTableId</key>
+				<data>AAAAAA==</data>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data>RE1BUg==</data>
+			</dict>
+		</array>
 		<key>Patch</key>
 		<array>
 			<dict>
@@ -223,6 +254,36 @@
 				<key>TableSignature</key>
 				<data></data>
 			</dict>
+			<dict>
+				<key>Base</key>
+				<string></string>
+				<key>BaseSkip</key>
+				<integer>0</integer>
+				<key>Comment</key>
+				<string>change Method(GPRW,2,N) to XPRW, pair with SSDT-GPRW.aml</string>
+				<key>Count</key>
+				<integer>0</integer>
+				<key>Enabled</key>
+				<true/>
+				<key>Find</key>
+				<data>R1BSVw==</data>
+				<key>Limit</key>
+				<integer>0</integer>
+				<key>Mask</key>
+				<data></data>
+				<key>OemTableId</key>
+				<data></data>
+				<key>Replace</key>
+				<data>WFBSVw==</data>
+				<key>ReplaceMask</key>
+				<data></data>
+				<key>Skip</key>
+				<integer>0</integer>
+				<key>TableLength</key>
+				<integer>0</integer>
+				<key>TableSignature</key>
+				<data></data>
+			</dict>
 		</array>
 		<key>Quirks</key>
 		<dict>
@@ -298,16 +359,22 @@
 			<dict>
 				<key>built-in</key>
 				<data>AQAAAA==</data>
+				<key># SSD</key>
+				<string></string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1C,0x3)/Pci(0x0,0x0)</key>
 			<dict>
 				<key>built-in</key>
 				<data>AQAAAA==</data>
+				<key># Ethernet</key>
+				<string></string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1C,0x4)/Pci(0x0,0x0)</key>
 			<dict>
 				<key>built-in</key>
 				<data>AQAAAA==</data>
+				<key># Fenvi</key>
+				<string></string>
 			</dict>
 			<key>PciRoot(0x0)/Pci(0x1B,0x0)</key>
 			<dict>
@@ -387,6 +454,24 @@
 				<true/>
 				<key>ExecutablePath</key>
 				<string></string>
+				<key>MaxKernel</key>
+				<string></string>
+				<key>MinKernel</key>
+				<string></string>
+				<key>PlistPath</key>
+				<string>Contents/Info.plist</string>
+			</dict>
+			<dict>
+				<key>Arch</key>
+				<string>Any</string>
+				<key>BundlePath</key>
+				<string>USBWakeFixup.kext</string>
+				<key>Comment</key>
+				<string>USBWakeFixup.kext</string>
+				<key>Enabled</key>
+				<true/>
+				<key>ExecutablePath</key>
+				<string>Contents/MacOS/USBWakeFixup</string>
 				<key>MaxKernel</key>
 				<string></string>
 				<key>MinKernel</key>
@@ -814,23 +899,23 @@
 			<key>AdviseFeatures</key>
 			<false/>
 			<key>MLB</key>
-			<string>XXXXXXXXXXXXXXXXX</string>
+			<string>F5K3109024NK3F7FB</string>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>ProcessorType</key>
 			<integer>3841</integer>
 			<key>ROM</key>
-			<data>AAAAAAAA</data>
+			<data>2DBiaIdj</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>SystemProductName</key>
-			<string>SMBIOS-PRODUCT-NAME</string>
+			<string>MacPro7,1</string>
 			<key>SystemSerialNumber</key>
-			<string>XXXXXXXXXXXX</string>
+			<string>F5KKD0AFP7QM</string>
 			<key>SystemUUID</key>
-			<string>XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX</string>
+			<string>DDD9561F-4328-4E8A-8F04-E8648D1BFBEE</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>
@@ -896,7 +981,7 @@
 			<key>AudioDevice</key>
 			<string>PciRoot(0x0)/Pci(0x1B,0x0)</string>
 			<key>AudioOutMask</key>
-			<integer>1</integer>
+			<integer>-1</integer>
 			<key>AudioSupport</key>
 			<true/>
 			<key>DisconnectHda</key>
@@ -1108,6 +1193,8 @@
 			<integer>0</integer>
 			<key>ResizeUsePciRbIo</key>
 			<true/>
+			<key>ShimRetainProtocol</key>
+			<false/>
 			<key>TscSyncTimeout</key>
 			<integer>0</integer>
 			<key>UnblockFsConnect</key>

@@ -12,9 +12,9 @@
 [![AMD Badge](https://img.shields.io/badge/AMD-ED1C24?logo=amd&logoColor=fff&style=flat)](https://www.amd.com/pt/graphics/amd-radeon-rx-6600-series)
 [![Bluetooth Badge](https://img.shields.io/badge/Bluetooth-0082FC?logo=bluetooth&logoColor=fff&style=flat)](https://fenvi.com/product_detail_16.html)
 
-**Latest working macOS**: 13.5
+**Latest working macOS**: 13.5.2
 <br>
-**Current OpenCore**: 0.9.4
+**Current OpenCore**: 0.9.5
 
 ---
 
@@ -28,19 +28,15 @@
 
 ## What works
 
-- macOS Ventura, Big Sur, Catalina and macOS Monterey
+- macOS Sonoma, Ventura, Big Sur, Catalina and macOS Monterey
 - Audio
 - HDMI/DP (in dGPU - Works OOB)
 - All USB ports
 - Everything iCloud related (Drive, iMessage, Facetime, unlock with Apple Watch, etc)
-- Temperature monitoring for everything except GPU
+- Temperature monitoring for everything
 - DRM content (Netflix, ATV+, Airplay 2 mirroring etc)
 - Shutdown/Reboot/Update to newer macOS builds over time
 - Resizable Bar ON (ResizeUsePciRbIo = true)
-
-## What doesn't work
-
-- Sleep? Never got the chance to test it, my hackintosh is up 24/7
 
 ## Kexts used:
 
@@ -76,4 +72,4 @@ Geekbench v5            |  Geekbench v6
 - [Access Discord](https://discord.universohackintosh.com.br)
 
 <div><img align="right" src="./Images/vncsmnl.gif" alt="signature" width="200"></div>
-<div><img align="left" src="./Images/rate_w.png" alt="like" width="80"></div>
+<div><img align="left" src="./Images/rate1_w.png" alt="like" width="80"></div>
