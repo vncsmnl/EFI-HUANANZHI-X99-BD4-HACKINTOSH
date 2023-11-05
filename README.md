@@ -12,7 +12,7 @@
 [![AMD Badge](https://img.shields.io/badge/AMD-ED1C24?logo=amd&logoColor=fff&style=flat)](https://www.amd.com/pt/graphics/amd-radeon-rx-6600-series)
 [![Bluetooth Badge](https://img.shields.io/badge/Bluetooth-0082FC?logo=bluetooth&logoColor=fff&style=flat)](https://fenvi.com/product_detail_16.html)
 
-**Latest working macOS**: 13.5.2
+**Latest working macOS**: 14.1.0
 <br>
 **Current OpenCore**: 0.9.5
 
@@ -24,7 +24,7 @@
 - HUANANZHI X99 BD4 + Unlock Turbo Boost + Resizable Bar Activated
 - AMD Radeon™ RX 6600
 - 2x 16Gb DDR4 3200Mhz ECC Atermiter
-- Wifi/BT replaced by Fenvi T919
+- Wifi/BT replaced by Fenvi T919 - OpenCore Legacy Patcher
 
 ## What works
 
