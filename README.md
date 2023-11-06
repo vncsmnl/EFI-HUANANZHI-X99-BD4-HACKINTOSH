@@ -24,7 +24,7 @@
 - HUANANZHI X99 BD4 + Unlock Turbo Boost + Resizable Bar Activated
 - AMD Radeon™ RX 6600
 - 2x 16Gb DDR4 3200Mhz ECC Atermiter
-- Wifi/BT replaced by Fenvi T919 - OpenCore Legacy Patcher
+- Wi-fi/Bluetooth replaced by Fenvi T919
 
 ## What works
 
@@ -37,6 +37,7 @@
 - DRM content (Netflix, ATV+, Airplay 2 mirroring etc)
 - Shutdown/Reboot/Update to newer macOS builds over time
 - Resizable Bar ON (ResizeUsePciRbIo = true)
+- Wi-fi/Bluetooth/AirDrop - OpenCore Legacy Patcher
 
 ## Kexts used:
 
