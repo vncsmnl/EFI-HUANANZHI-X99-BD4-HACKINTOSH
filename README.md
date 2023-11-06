@@ -14,7 +14,7 @@
 
 **Latest working macOS**: 14.1.0
 <br>
-**Current OpenCore**: 0.9.5
+**Current OpenCore**: 0.9.6
 
 ---
 
