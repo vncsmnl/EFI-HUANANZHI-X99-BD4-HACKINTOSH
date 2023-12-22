@@ -907,7 +907,11 @@
 			<key>ProcessorType</key>
 			<integer>3841</integer>
 			<key>ROM</key>
+<<<<<<< HEAD
 			<data>AAAAAAAA</data>
+=======
+			<data>qqqqqqqq</data>
+>>>>>>> 74c159f10c06d4f2bcc10f7e52e7d9b74883dbee
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
