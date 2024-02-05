@@ -14,7 +14,7 @@
 
 **Latest working macOS**: 14.2.1
 <br>
-**Current OpenCore**: 0.9.7
+**Current OpenCore**: 0.9.8
 
 ---
 
@@ -54,13 +54,39 @@
 - [x] WhateverGreen.kext
 - [x] XHCI-unsupported.kext
 
+## How does it works (if you have the same hardware): @ThalesM1
+  0. Config the BIOS, expecs bellow
+  1. Get the EFI
+  2. Config the SMBIOS, generating one with genSMBIOS, then edit it using properTree: ROM, SystemUUID, MLB, system serial number
+  3. Download **macOs Catalina** from macrecovery
+  4. Create the bootable pen drive, install Catalina from Open Core
+  5. Update from oficial Apple
+
+
+## BIOS Settings: @ThalesM1
+Access the bios, using DEL key during start
+## Disable
+  1. Go to advanded -> ACPI settings -> ACPI sleep state -> disable
+  2. Go to advanded -> NCT55320 Super IO configuration -> Serial Port 1 -> serial port -> disable
+  3. Go to advanded -> CSM Configuration -> video -> change to UEFI -> disable
+  4. Reboot the machine
+  5. Go to advanded -> CSM Configuration -> CSM Support -> disable
+  6. IntelRCSetup -> Processor Configuration -> MSR Lock Control -> disable
+  7. IntelRCSetup -> Processor Configuration -> Execute Disable Bit -> disable
+
+ ## Enable
+ 1. Go to advanded -> USB Configuration -> XHCI Hand-off -> enable
+ 2. Go to advanded -> USB Configuration -> EHCI Hand-off -> enable
+ 3. InterRCSetup -> Processor Configuration -> Hyper Threading -> enable
+
+
 ## Benchmark Results:
 
 Geekbench v5            |  Geekbench v6
 :-------------------------:|:-------------------------:
-![CPU](/Benchmark/CPU_Benchmark_v5.png) |  ![GPU Metal](/Benchmark/CPU_Benchmark_v6.png)
-![GPU Metal](/Benchmark/GPU_Benchmark_Metal_v5.png) |  ![GPU Metal](/Benchmark/GPU_Benchmark_Metal_v6.png)
-![GPU OpenCL](/Benchmark/GPU_Benchmark_OpenCL_v5.png) |  ![GPU Metal](/Benchmark/GPU_Benchmark_OpenCL_v6.png)
+[CPU Benchmark](/Benchmark/CPU_Benchmark_v5.png) |  [CPU Benchmark](/Benchmark/CPU_Benchmark_v6.png)
+[GPU Metal](/Benchmark/GPU_Benchmark_Metal_v5.png) |  [GPU Metal](/Benchmark/GPU_Benchmark_Metal_v6.png)
+[GPU OpenCL](/Benchmark/GPU_Benchmark_OpenCL_v5.png) |  [GPU OpenCL](/Benchmark/GPU_Benchmark_OpenCL_v6.png)
 
 ## Thanks/Credits
 
