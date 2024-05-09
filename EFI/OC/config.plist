@@ -904,23 +904,23 @@
 			<key>AdviseFeatures</key>
 			<false/>
 			<key>MLB</key>
-			<string>XXXXXXXXXXXXXXXXX</string>
+			<string>F5K3109024NK3F7FB</string>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>ProcessorType</key>
 			<integer>3841</integer>
 			<key>ROM</key>
-			<data>AAAAAAAA</data>
+			<data>2DBiaIdj</data>
 			<key>SpoofVendor</key>
 			<true/>
 			<key>SystemMemoryStatus</key>
 			<string>Auto</string>
 			<key>SystemProductName</key>
-			<string>SMBIOS-PRODUCT-NAME</string>
+			<string>MacPro7,1</string>
 			<key>SystemSerialNumber</key>
-			<string>XXXXXXXXXXXX</string>
+			<string>F5KKD0AFP7QM</string>
 			<key>SystemUUID</key>
-			<string>XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX</string>
+			<string>DDD9561F-4328-4E8A-8F04-E8648D1BFBEE</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>

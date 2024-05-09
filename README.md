@@ -12,19 +12,22 @@
 [![AMD Badge](https://img.shields.io/badge/AMD-ED1C24?logo=amd&logoColor=fff&style=flat)](https://www.amd.com/pt/graphics/amd-radeon-rx-6600-series)
 [![Bluetooth Badge](https://img.shields.io/badge/Bluetooth-0082FC?logo=bluetooth&logoColor=fff&style=flat)](https://fenvi.com/product_detail_16.html)
 
-**Latest working macOS**: 14.4
+**Latest working macOS**: 14.4.1
 <br>
-**Current OpenCore**: 0.9.9
+**Current OpenCore**: 1.0.0
 
 ---
 
 ## Complete hardware specs
 
-- Intel® Xeon® E5-2670 v3 (All cores activated)
-- HUANANZHI X99 BD4 + Unlock Turbo Boost + Resizable Bar Activated
-- AMD Radeon™ RX 6600
-- 2x 16Gb DDR4 3200Mhz ECC Atermiter
-- Wi-fi/Bluetooth replaced by Fenvi T919
+- Motherboard Name:	Huananzhi X99-BD4 | Motherboard Chipset:	Intel Lynx Point - B85, Intel Haswell-EP
+- CPU Type: 12-Core Intel® Xeon® E5-2670 v3, 2266 MHz (23 x 99)
+- Memory: 2 X 16 GB DDR4-3200 Reg. ECC DDR4 SDRAM - Atermiter
+- Video Adapter: AMD Radeon™ RX 6600  (8176 MB)
+- Audio Adapter: Realtek ALC887 @ Intel Lynx Point PCH - High Definition Audio Controller
+- Ethernet Adapter: Realtek PCIe GbE Family Controller
+- Network Adapter: Broadcom 802.11ac Network Adapter
+- Disk Drive: XrayDisk 1TB SSD  (953 GB)
 
 ## What works
 
