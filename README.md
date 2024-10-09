@@ -12,9 +12,9 @@
 [![AMD Badge](https://img.shields.io/badge/AMD-ED1C24?logo=amd&logoColor=fff&style=flat)](https://www.amd.com/pt/graphics/amd-radeon-rx-6600-series)
 [![Bluetooth Badge](https://img.shields.io/badge/Bluetooth-0082FC?logo=bluetooth&logoColor=fff&style=flat)](https://fenvi.com/product_detail_16.html)
 
-**Latest working macOS**: 14.6.1
+**Latest working macOS**: 15.0.1
 <br>
-**Current OpenCore**: 1.0.1
+**Current OpenCore**: 1.0.2
 
 ---
 
@@ -31,7 +31,7 @@
 
 ## What works
 
-- macOS Sonoma, Ventura, Big Sur, Catalina and macOS Monterey
+- macOS Sequoia, Sonoma, Ventura, Big Sur, Catalina and macOS Monterey
 - Audio
 - HDMI/DP (in dGPU - Works OOB)
 - All USB ports

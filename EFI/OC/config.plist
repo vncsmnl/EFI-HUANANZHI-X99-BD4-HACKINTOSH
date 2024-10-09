@@ -2,7 +2,10 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key># BASE EFI INTEL X99 HASWELL(E) - RELEASE Version</key>
+	<key># BASE EFI-HUANANZHI-X99-BD4-HACKINTOSH
+</key>
+	<string></string>
+	<key># BY: https://github.com/vncsmnl/EFI-HUANANZHI-X99-BD4-HACKINTOSH</key>
 	<string></string>
 	<key># BY: https://luchina.com.br</key>
 	<string></string>
@@ -1206,6 +1209,8 @@
 			<false/>
 		</dict>
 		<key>ReservedMemory</key>
+		<array/>
+		<key>Unload</key>
 		<array/>
 	</dict>
 </dict>
