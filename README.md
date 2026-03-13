@@ -12,16 +12,16 @@
 [![AMD Badge](https://img.shields.io/badge/AMD-ED1C24?logo=amd&logoColor=fff&style=flat)](https://www.amd.com/pt/graphics/amd-radeon-rx-6600-series)
 [![Bluetooth Badge](https://img.shields.io/badge/Bluetooth-0082FC?logo=bluetooth&logoColor=fff&style=flat)](https://fenvi.com/product_detail_16.html)
 
-**Latest working macOS**: 15.0.1
+**Latest working macOS**: 15.7.4
 <br>
-**Current OpenCore**: 1.0.2
+**Current OpenCore**: 1.0.6
 
 ---
 
 ## Complete hardware specs
 
 - Motherboard Name:	Huananzhi X99-BD4 | Motherboard Chipset:	Intel Lynx Point - B85, Intel Haswell-EP
-- CPU Type: 12-Core Intel® Xeon® E5-2670 v3, 2266 MHz (23 x 99)
+- CPU Type: 12-Core Intel® Xeon® E5-2680 v4, 2266 MHz (23 x 99)
 - Memory: 2 X 16 GB DDR4-3200 Reg. ECC DDR4 SDRAM - Atermiter
 - Video Adapter: AMD Radeon™ RX 6600  (8176 MB)
 - Audio Adapter: Realtek ALC887 @ Intel Lynx Point PCH - High Definition Audio Controller
@@ -53,6 +53,7 @@
 - [x] SMCSuperIO.kext
 - [x] SMCProcessor.kext
 - [x] USBMap.kext
+- [x] USBWakeFixup.kext
 - [x] VirtualSMC.kext
 - [x] WhateverGreen.kext
 - [x] XHCI-unsupported.kext
