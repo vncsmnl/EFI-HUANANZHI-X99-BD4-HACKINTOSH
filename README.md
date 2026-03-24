@@ -58,6 +58,10 @@
 - [x] WhateverGreen.kext
 - [x] XHCI-unsupported.kext
 
+## ATENTION
+
+- Use GenSMBIOS to generate PlatformInfo based on your setup, defining values in MLB, ROM, SystemProductName, SystemSerialNumber, SystemUUID
+
 ## How does it works (if you have the same hardware): @ThalesM1
   0. Config the BIOS, expecs bellow
   1. Get the EFI
