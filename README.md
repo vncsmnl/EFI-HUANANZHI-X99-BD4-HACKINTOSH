@@ -14,7 +14,7 @@
 
 **Latest working macOS**: 15.7.4
 <br>
-**Current OpenCore**: 1.0.6
+**Current OpenCore**: 1.0.7
 
 ---
 
